@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta name="robots" content="index" />
     <link rel="stylesheet" href="assets/theme/style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900">
     <link rel="shortcut icon" href="assets/images/Levi.jpg" />
     <title>Levi Bosando | web developer</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,7 +42,7 @@
                             <li><a href="#about">About</a></li>
                             <li><a href="#project">Projects</a></li>
                             <li><a href="#skill">Skills</a></li>
-                
+
                             <li class="dropdownIcon">
                                 <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
                             </li>
@@ -59,7 +60,8 @@
                     </p>
                     <!-- Email button -->
                     <p class="banner-btn">
-                        <a href="mailto:levibosando@outlook.com?subject=Hi there!"><i class="material-icons md-36">email</i> Email Me</a>
+                        <a href="mailto:levibosando@outlook.com?subject=Hi there!"><i
+                                class="material-icons md-36">email</i> Email Me</a>
                     </p>
                 </div>
             </header>
@@ -111,68 +113,65 @@
     <!-- Project section -->
 
     <div class="container">
-        <div class="container-fluid">
-            <div class="section-2 animate-zoom">
-                <h2 id="project">Projects</h2>
+        <div class="section-2 animate-zoom">
+            <h2 id="project">Projects</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="box animate-zoom">
+                    <img src="assets/images/website.png" alt="screenshot for website" />
+
+                    <div class="text-box">
+                        <h2>My personal Website.</h2> <span class="btn-box">
+                            <a href="https://github.com/levibosando/personal-website" target="_blank"><button
+                                    class="btn" type="button">View</button></a>
+                        </span>
+                        <p>
+                            This is my personal website which i made from scratch.
+                            Technologies is used: Html5, CSS, JAVASCRIPT, JQUERY.
+                        </p>
+                    </div>
+
+                </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="box animate-zoom">
-                        <img src="assets/images/website.png" alt="screenshot for website" />
 
-                        <div class="text-box">
-                            <h2>My personal Website.</h2> <span class="btn-box">
-                                <a href="https://github.com/levibosando/personal-website" target="_blank"><button
-                                        class="btn" type="button">View</button></a>
-                            </span>
-                            <p>
-                                This is my personal website which i made from scratch.
-                                Technologies is used: Html5, CSS, JAVASCRIPT, JQUERY.
-                            </p>
-                        </div>
-
+            <div class="col-4">
+                <div class="box animate__zoomIn">
+                    <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg" alt="screenshot for website" />
+                    <div class="text-box">
+                        <h2>KraAutomation</h2><span class="btn-box">
+                            <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
+                                    type="button">View</button></a>
+                        </span>
+                        <p>
+                            I have automated the process for Kra Null returns.
+                            Technologies: Python3
+                        </p>
                     </div>
+
                 </div>
+            </div>
 
-                <div class="col-4">
-                    <div class="box animate-zoom">
-                        <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg"
-                            alt="screenshot for website" />
-                        <div class="text-box">
-                            <h2>KraAutomation</h2><span class="btn-box">
-                                <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
-                                        type="button">View</button></a>
-                            </span>
-                            <p>
-                                I have automated the process for Kra Null returns.
-                                Technologies: Python3
-                            </p>
-                        </div>
+            <div class="col-4">
+                <div class="box animate-zoom">
+                    <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg" alt="screenshot for website" />
 
+                    <div class="text-box">
+                        <h2>EasyApplyLinkedin </h2> <span class="btn-box">
+                            <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
+                                    type="button">View</button></a>
+                        </span>
+                        <p>
+                            This is my version method automation for applying jobs
+                            depending on your keywords in the list. Technologies: Python3
+                            and selenium.
+                        </p>
                     </div>
-                </div>
 
-                <div class="col-4">
-                    <div class="box animate-zoom">
-                        <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg"
-                            alt="screenshot for website" />
-
-                        <div class="text-box">
-                            <h2>EasyApplyLinkedin </h2> <span class="btn-box">
-                                <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
-                                        type="button">View</button></a>
-                            </span>
-                            <p>
-                                This is my version method automation for applying jobs
-                                depending on your keywords in the list. Technologies: Python3
-                                and selenium.
-                            </p>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- Skills section -->
@@ -247,16 +246,19 @@
                 <h2>Leave a message</h2>
                 <form action="message.php" method="post" id="messageForm">
                     <div>
-                        <input class="animate-input" type="text" name="Fname" placeholder="Enter your First name" required />
+                        <input class="animate-input" type="text" name="Fname" placeholder="Enter your First name"
+                            required />
                     </div>
                     <div>
-                        <input class="animate-input" type="text" name="Lname" placeholder="Enter your Second name" required />
+                        <input class="animate-input" type="text" name="Lname" placeholder="Enter your Second name"
+                            required />
                     </div>
                     <div>
                         <input class="animate-input" type="email" name="email" placeholder="Email" required />
                     </div>
                     <div class="msg-textarea">
-                        <textarea  class="animate-input" name="msgarea" placeholder="Enter your message." required></textarea>
+                        <textarea class="animate-input" name="msgarea" placeholder="Enter your message."
+                            required></textarea>
                     </div>
                     <div class="required">
                         <input type="submit" value="Send" />
