@@ -16,10 +16,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-53J14V39G9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-53J14V39G9');
+
     </script>
 </head>
 
@@ -28,22 +32,22 @@
     <div class="bg-image">
         <!--Change the background image in the stylesheet-->
         <div class="single-banner">
-            <nav>
-                <ul class="topnav" id="dropdownClick">
-                    <div class="container-fluid">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#project">Projects</a></li>
-                        <li><a href="#skill">Skills</a></li>
-
-                        <li class="dropdownIcon">
-                            <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
-                        </li>
-                    </div>
-                </ul>
-            </nav>
-
             <header>
-                <div class="banner-text">
+                <nav>
+                    <ul class="topnav" id="dropdownClick">
+                        <div class="container-fluid">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#project">Projects</a></li>
+                            <li><a href="#skill">Skills</a></li>
+                
+                            <li class="dropdownIcon">
+                                <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+
+                <div class="banner-text animate-zoom">
                     <div>
                         <em>Hey,I'm Levi.</em>
                     </div>
@@ -61,20 +65,20 @@
     </div>
     <!-- Biography section -->
 
-    <div class="container">
+    <div class="container animation-container">
         <div class="container-fluid">
-            <div class="section-1">
+            <div class="section-1 animate-zoom">
                 <h2 id="about">Biography</h2>
             </div>
             <div class="row">
                 <div class="col-6">
-                    <div class="imgContainer">
+                    <div class="imgContainer animate-left">
                         <img src="assets/images/Levi.jpg" alt="Levi Bosando" />
                     </div>
                 </div>
 
                 <div class="col-6">
-                    <div class="rightside-col">
+                    <div class="rightside-col animate-right">
                         <p>
                             Am a front-end developer, self-taught. My love as website
                             developer started when i was still in college pursuing Diploma
@@ -101,68 +105,68 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Project section -->
 
     <div class="container">
         <div class="container-fluid">
-            <div class="section-2">
-                <h2 id="project">Some of the projects i have worked on.</h2>
+            <div class="section-2 animate-zoom">
+                <h2 id="project">Projects</h2>
             </div>
             <div class="row">
                 <div class="col-4">
-                    <div class="box">
+                    <div class="box animate-zoom">
                         <img src="assets/images/website.png" alt="screenshot for website" />
 
                         <div class="text-box">
-                            <h2>My personal Website.</h2>
+                            <h2>My personal Website.</h2> <span class="btn-box">
+                                <a href="https://github.com/levibosando/personal-website" target="_blank"><button
+                                        class="btn" type="button">View</button></a>
+                            </span>
                             <p>
                                 This is my personal website which i made from scratch.
                                 Technologies is used: Html5, CSS, JAVASCRIPT, JQUERY.
                             </p>
                         </div>
-                        <div class="btn-box">
-                            <a href="https://github.com/levibosando/personal-website" target="_blank"><button class="btn"
-                                    type="button">View</button></a>
-                        </div>
+
                     </div>
                 </div>
 
                 <div class="col-4">
-                    <div class="box">
+                    <div class="box animate-zoom">
                         <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg"
                             alt="screenshot for website" />
                         <div class="text-box">
-                            <h2>KraAutomation</h2>
+                            <h2>KraAutomation</h2><span class="btn-box">
+                                <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
+                                        type="button">View</button></a>
+                            </span>
                             <p>
-                                I have auto mated the process for Kra Null returns.
+                                I have automated the process for Kra Null returns.
                                 Technologies: Python3
                             </p>
                         </div>
-                        <div class="btn-box">
-                            <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
-                                    type="button">View</button></a>
-                        </div>
+
                     </div>
                 </div>
 
                 <div class="col-4">
-                    <div class="box">
+                    <div class="box animate-zoom">
                         <img src="assets/images/nathan-da-silva-oFkRO55PUmo-unsplash.jpg"
                             alt="screenshot for website" />
 
                         <div class="text-box">
-                            <h2>BrightMonday Automation</h2>
+                            <h2>EasyApplyLinkedin </h2> <span class="btn-box">
+                                <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
+                                        type="button">View</button></a>
+                            </span>
                             <p>
                                 This is my version method automation for applying jobs
                                 depending on your keywords in the list. Technologies: Python3
                                 and selenium.
                             </p>
                         </div>
-                        <div class="btn-box">
-                            <a href="https://github.com/levibosando/" target="_blank"><button class="btn"
-                                    type="button">View</button></a>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -171,13 +175,13 @@
 
     <!-- Skills section -->
 
-    <div class="container">
+    <div class="container animation-container">
         <div class="container-fluid">
-            <div class="section-3">
+            <div class="section-3 animate-zoom">
                 <h2 id="skill">Skills</h2>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 animate-bottom">
                     <ul class="softskill">
                         <h3>Softskills</h3>
                         <li>Efficient and effective communication skills.</li>
@@ -195,7 +199,7 @@
                     </ul>
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 animate-bottom">
                     <ul class="hardskill">
                         <h3>Hardskills</h3>
                         <li>Diligence and attention to detail.</li>
@@ -213,7 +217,7 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 animate-bottom">
                         <ul class="technicalskill">
                             <h3>Technical Skills</h3>
                             <li>HTML</li>
@@ -235,22 +239,22 @@
 
     <!-- Message section -->
 
-    <div class="container">
+    <div class="container  animation-container " id="msg-bgcolor">
         <section class="Msg">
             <div class="container-fluid">
                 <h2>Leave a message</h2>
                 <form action="message.php" method="post" id="messageForm">
                     <div>
-                        <input type="text" name="Fname" placeholder="Enter your First name" required />
+                        <input class="animate-input" type="text" name="Fname" placeholder="Enter your First name" required />
                     </div>
                     <div>
-                        <input type="text" name="Lname" placeholder="Enter your Second name" required />
+                        <input class="animate-input" type="text" name="Lname" placeholder="Enter your Second name" required />
                     </div>
                     <div>
-                        <input type="email" name="email" placeholder="Email" required />
+                        <input class="animate-input" type="email" name="email" placeholder="Email" required />
                     </div>
                     <div class="msg-textarea">
-                        <textarea name="msgarea" placeholder="Enter your message." required></textarea>
+                        <textarea  class="animate-input" name="msgarea" placeholder="Enter your message." required></textarea>
                     </div>
                     <div class="required">
                         <input type="submit" value="Send" />
@@ -262,13 +266,13 @@
 
     <!-- Back to top button -->
 
-   
-        <div class="container-fluid">
-            <div class="backtop">
-                <a href="#top">Back to the top</a>
-            </div>
+
+    <div class="container-fluid">
+        <div class="backtop">
+            <a href="#top">Back to the top</a>
         </div>
-    
+    </div>
+
     <!-- Footer -->
 
     <footer class="footsy">
