@@ -61,7 +61,7 @@ body {
   height: 100%;
   line-height: 1.2;
   font-family: "Arial", "Halvetica", sans-serif;
-  background-color:#fff ;
+  background-color:#F5F6F7 ;
   
 }
 
@@ -288,12 +288,13 @@ nav ul {
 
 .banner-btn a {
   text-decoration: none;
-   background: crimson;
+   background: linear-gradient(to right, #cc2b5e 0%, #753a88 100%);
   color: #fff;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 4px;
   margin-top: 70px;
+     
 }
 
 .banner-btn a:hover {
@@ -301,6 +302,9 @@ nav ul {
   transform: translateY(-5px);
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
   transition: all 0.2s ease-in-out;
+}
+.banner-btn img{
+  display: inline-block;
 }
 
 /*############################# Sections  Projects##################################*/
