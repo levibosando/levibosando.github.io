@@ -358,7 +358,7 @@ div.rightside-col a {
 }
 .text-card h4 {
   display: inline-block;
-  font-size: large;
+  flex-direction: row;
 }
 .text-card p {
   margin: 20px;
@@ -722,6 +722,9 @@ footer.footsy ul li a:visited {
   .project-container img {
     height: auto;
   }
+.text-card h4 {
+  text-align: left;
+}
 
   ul.softskill,
   ul.hardskill,
