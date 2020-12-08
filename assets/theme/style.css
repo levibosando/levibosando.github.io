@@ -202,7 +202,12 @@ body {
   width: 100%;
 }
 
-
+.material-icons.md-24{
+  font-size: 24;
+}
+.material-icons.md-dark{
+  color: white;
+}
 
 /*############################# Background Image ############################*/
 .bg-image,
@@ -540,7 +545,26 @@ footer.footsy ul li a:visited {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background:#3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
+}
 /*################################## Mobile #############################*/
 @media screen and (max-width: 1000px) {
   /* ############ Mobile defaults ############# */
