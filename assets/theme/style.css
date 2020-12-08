@@ -211,7 +211,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 550px;
+  min-height: 800px;
 }
 
 .single-banner {
@@ -270,7 +270,7 @@ nav ul {
   overflow: hidden;
   margin: auto;
   width: 50%;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .banner-text em {
@@ -283,6 +283,7 @@ nav ul {
 .banner-text p {
   color: #fff;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .banner-btn a {
@@ -292,6 +293,7 @@ nav ul {
   padding: 10px 20px;
   display: inline-block;
   border-radius: 4px;
+  margin-top: 70px;
 }
 
 .banner-btn a:hover {
@@ -574,15 +576,6 @@ footer.footsy ul li a:visited {
   }
 
   /* ######################## Skills section ########################### */
-  div.box {
-    display: block;
-    height: auto;
-  }
-
-  .btn-box {
-    position: relative;
-    left: 0;
-  }
 
   ul.hardskill,
   ul.softskill,
@@ -722,8 +715,15 @@ footer.footsy ul li a:visited {
   .project-container img {
     height: auto;
   }
-.text-card h4 {
-  text-align: left;
+  .text-card h4{
+    text-align: center;
+  }
+  .btn{
+    padding: 5px 15px;
+  }
+.flex{
+  display: flex;
+  justify-content: space-between;
 }
 
   ul.softskill,
