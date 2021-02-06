@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900">
     <link rel="stylesheet" type="text/css" href="assets/theme/animate.css">
     <link rel="shortcut icon" href="assets/images/Levi.png" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Levi Bosando | web developer</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -50,7 +51,7 @@
                         </div>
                     </ul>
                 </nav>
-                <div class="banner-text wow zoomIn">
+                <div class="banner-text">
                     <div>
                         <em>Hey,I'm Levi.</em>
                     </div>
@@ -60,10 +61,10 @@
                     </p>
                     <!-- Email button -->
                     <p class="banner-btn">
-                        <a href="mailto:levibosando@outlook.com?subject=Hi there!"><i class="material-icons md-24 md-dark ">mail</i> Email Me</a>
+                        <a href="#"> Learn More</a>
                     </p>
                 </div>
-           
+
             </header>
         </div>
     </div>
@@ -123,8 +124,8 @@
                         <img src="assets/images/website.png" alt="website project">
                         <figcaption class="text-card">
                             <div class="flex">
-                            <h4>Personal website</h4> <a href="https://github.com/levibosando/levibosando.github.io"
-                                class="btn">view</a>
+                                <h4>Personal website</h4> <a href="https://github.com/levibosando/levibosando.github.io"
+                                    class="btn">view</a>
                             </div>
                             <div>
                                 <p>I created this website from scratch trying to understand the technologies that run
@@ -270,23 +271,25 @@
             <div class="row">
                 <div class="col-12">
                     <div>
-                        
-                  
-                    <h5>Follow me</h5>
-                    <ul>
-                        <li>
-                           <a href="https://linkedin.com/in/levi-bosando-607b12116" target="_blank"><i class="fa fa-linkedin fa"></i></a>
-                        </li>
-                        <li><a href="https://twitter.com/levibosando" target="_blank"><i class="fa fa-twitter fa"></i></a></li>
-                    </ul>
-                </div>
+
+
+                        <h5>Follow me</h5>
+                        <ul>
+                            <li>
+                                <a href="https://linkedin.com/in/levi-bosando-607b12116" target="_blank"><i
+                                        class="fa fa-linkedin fa"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/levibosando" target="_blank"><i
+                                        class="fa fa-twitter fa"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <section class="address-bar">
         <div>
-            <h6>© 2020 Levi Bosando. All rights reserved</h6>
+            <h6 id="text"></h6>
         </div>
     </section>
     <!-- Scripts -->
@@ -297,6 +300,13 @@
     <script src="assets/JS/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        function getYear() {
+            let currentYear = new Date().getFullYear();
+            document.getElementById("text").innerHTML = 'Copyright &#169; Levi Bosando ${currentYear}';
+        }
+        getYear();
     </script>
 </body>
 

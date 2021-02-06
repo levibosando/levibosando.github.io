@@ -8,6 +8,7 @@ function dropdownMenu() {
     }
 }
 
-var scroll = new SmoothScroll('a[href*="#"]',{
-	speed:500
+var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
 });
+
