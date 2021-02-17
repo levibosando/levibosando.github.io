@@ -277,7 +277,7 @@ nav ul {
 }
 
 .banner-text em {
-  font-size: 60px;
+  font-size: 50px;
   text-transform: capitalize;
   color: #fff;
   margin: 0;
@@ -684,7 +684,8 @@ footer.footsy ul li a:visited {
   }
 
   .banner-text p {
-    font-size: 22px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .banner-btn {
